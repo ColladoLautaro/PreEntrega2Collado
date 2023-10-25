@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <!-- CSS BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- MI CSS PERSONAL -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Farmacia Blanco</title>
+</head>
+
+<body class="container-fluid">
+    <!-- HEADER BOOTSTRAP -->
+    <header class="navbar navbar-expand-lg  encabezado">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">
+                <img class="tamLogo" src="img/logobla.png" alt="Logo Farmacia">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav fuentesNav">
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/html/tienda.html">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/html/nosotros.html">Nosotros</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/html/promos.html">Promociones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/html/regaleria.html">Regaleria</a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <!-- Carrusel -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/img/slider1.jpg" class="d-block w-100" alt="Imagen 2x1">
+            </div>
+            <div class="carousel-item">
+                <img src="/img/slider2.jpg" class="d-block w-100" alt="Imagen promo bbva">
+            </div>
+            <div class="carousel-item">
+                <img src="/img/slider3.jpg" class="d-block w-100" alt="Imagen promo dermo">
+            </div>
+            <div class="carousel-item">
+                <img src="/img/slider4.jpg" class="d-block w-100" alt="Imagen promo Axe">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- TITULO PRODUCTO EN INICIO -->
+    <div class="tituloProductosInicio mt-4">
+        <h2>Productos</h2>
+    </div>
+
+    <!-- PRODUCTOS EN INICIO -->
+
+    <div class="row container-fluid">
+        <div class="card col-xl-3 col-md-6 col col-sm-12">
+            <div class="imgCont">
+                <img class="medicaImg" src="img/alikal_sobre-removebg-preview.png" class="card-img-top"
+                    alt="Imagen Alikal">
+            </div>
+            <div class="card-body">
+                <h3 class="card-title">Alikal </h3>
+                <p class="card-text">ALIKAL es la combinación de una sal efervescente con un efecto antiácido y un
+                    comprimido de acción analgésica. Está indicado para el alivio de la acidez y de la indigestión ácida
+                    acompañada del dolor de cabeza. Antiácido y analgésico.</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Añadir al Carrito
+                </button>
+            </div>
+        </div>
+
+        <div class="card col-xl-3 col-md-6 col col-sm-12">
+            <div class="imgCont"><img class="medicaImg" src="img/aerotina-removebg-preview.png" class="card-img-top"
+                    alt="Imagen Aerotina"></div>
+            <div class="card-body">
+                <h3 class="card-title">Aerotina</h3>
+                <p class="card-text"> Aerotina Cápsulas Blandas de Rápida Acción está indicada para el alivio temporario
+                    de los síntomas causados por alergias respiratorias, como ser: secreción nasal, estornudos,
+                    lagrimeo, picazón en los ojos, nariz y/o garganta.</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Añadir al Carrito
+                </button>
+            </div>
+        </div>
+
+        <div class="card col-xl-3 col-md-6 col col-sm-12 ">
+            <div class="imgCont">
+                <img src="img/artostopng.png" class="card-img-top" alt="Imagen Artrostop">
+            </div>
+            <div class="card-body">
+                <h3 class="card-title">Artostop T</h3>
+                <p class="card-text">ARTROSTOP T analgésico y antiinflamatorio, indicado para el alivio sintomático de
+                    dolores de espalda, dolores musculares, dolores de las articulaciones y dolores producidos por
+                    artritis.
+                </p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Añadir al Carrito
+                </button>
+            </div>
+        </div>
+
+        <div class="card col-xl-3 col-md-6 col col-sm-12">
+            <div class="imgCont">
+                <img src="img/benadryl.png" class="card-img-top" alt="Imagen Benadryl">
+            </div>
+            <div class="card-body">
+                <h3 class="card-title">Benadryl</h3>
+                <p class="card-text">Benadryl es un medicamento que se usa para tratar reacciones alérgicas, urticaria y
+                    alergias que afectan la nariz</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Añadir al Carrito
+                </button>
+            </div>
+        </div>
+
+        <div class="card col-xl-3 col-md-6 col col-sm-12">
+            <img class="imgCont" src="img/dermaglock.png" class="card-img-top" alt="Imagen Dermaglos">
+            <div class="card-body">
+                <h3 class="card-title">Dermaglos</h3>
+                <p class="card-text">Es una crema para el cuidado de la piel seca y prevención de las arrugas. La
+                    prevención y eliminación
+                    de dermatitis profesionales e irritaciones por rozamiento de ropa, aparatos de rehabilitación o
+                    inmovilidad.</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Añadir al Carrito
+                </button>
+            </div>
+        </div>
+
+        <div class="card col-xl-3 col-md-6 col col-sm-12">
+            <img class="medicaImg" src="img/ibuprofeno.png" class="card-img-top" alt="Imagen Ibuprofeno">
+            <div class="card-body">
+                <h3 class="card-title">Ibuprofeno</h3>
+                <p class="card-text">Está indicado para el alivio sintomático de los dolores ocasionales leves o
+                    moderados como dolores de cabeza, dolores dentales, dolores menstruales y estados febriles en
+                    adultos y adolescentes a partir de 16 años.</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Añadir al Carrito
+                </button>
+            </div>
+        </div>
+
+        <div class="card col-xl-3 col-md-6 col col-sm-12">
+            <img class="medicaImg" src="img/losartan.png" class="card-img-top" alt="Imagen Losartan">
+            <div class="card-body">
+                <h3 class="card-title">Losartan</h3>
+                <p class="card-text">El losartán potásico bloquea la acción de las sustancias químicas que hacen
+                    contraer los vasos sanguíneos. Es un tipo de antagonista del receptor de la angiotensina II.</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Añadir al Carrito
+                </button>
+            </div>
+        </div>
+
+        <div class="card col-xl-3 col-md-6 col col-sm-12">
+            <img class="medicaImg" src="img/macril-removebg-preview.png" class="card-img-top" alt="Imagen Macril">
+            <div class="card-body">
+                <h3 class="card-title">Macril</h3>
+                <p class="card-text"> Antibacteriano, antimicótico, antiinflamatorio de uso tópico. Indicaciones:
+                    Dermatopatías inflamatorias complicadas por infección bacteriana, micótica o mixta: dermatitis
+                    infectadas secundariamente por bacterias u hongos.</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Añadir al Carrito
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Carrito de Compras</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ¿Añadir este producto al carrito?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary">Añadir</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Boton WPP -->
+    <a target="_blank" href="https://api.whatsapp.com/send?phone=543644404672&text=Hola!">
+        <img class="whats" src="img/descarga-removebg-preview.png" alt="LogoWhatsapp">
+
+    </a>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-row">
+
+                <div class="footer-links">
+                    <h4>Nuestra Tienda</h4>
+                    <ul>
+                        <li> <a href="html/tienda.html">Catalogo</a></li>
+                        <li> <a href="html/promos.html">Promociones</a></li>
+                        <li><a href="html/nosotros.html">Descuentos</a></li>
+                    </ul>
+
+                </div>
+                <div class="footer-links">
+                    <h4>Información</h4>
+                    <ul>
+                        <li><a target="_blank"
+                                href="https://www.linkedin.com/in/ignacio-blanco-777372118/?originalSubdomain=ar">Linkedin</a>
+                        </li>
+                        <li><a target="_blank"
+                                href="https://www.google.com/maps/dir//farmacia+blanco+villa+ocampo/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x944f1b21fe0bc6a1:0xa5155b2fe7329470?sa=X&ved=2ahUKEwiJ-sGXuI-CAxXwErkGHT7uCg8Q9Rd6BAhCEAA&ved=2ahUKEwiJ-sGXuI-CAxXwErkGHT7uCg8Q9Rd6BAhNEAQ">¿Donde
+                                nos ubicamos?</a></li>
+                        <li><a target="_blank" href="https://www6.oca.com.ar/plataformaenvios/">Calcular envío</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="footer-links">
+                    <h4>Nuestras Redes</h4>
+                    <ul>
+                        <li><a target="_blank"
+                                href="https://www.facebook.com/profile.php?id=100077344791689">Facebook</a></li>
+                        <li><a target="_blank" href="https://www.instagram.com/farmaciablanco_/">Instagram</a></li>
+                        <li><a target="_blank" href="https://gpsfarma.com/">GPSFarma</a></li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <!-- JS BS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+    </footer>
+
+</body>
+
+</html>
